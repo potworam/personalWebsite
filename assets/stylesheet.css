@@ -1,12 +1,18 @@
+body, html {
+    height: 100%;
+}
+
 .boxes {
     height: 200px;
     width: 200px;
   border: 15px solid black;
   padding: 50px;
   margin: 20px;
+  display:flex;
+  flex-wrap: wrap;
 }
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/graffiti-6095045_1280.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/360_F_302496224_K1g4GlKAfQb62JdCZ80QrAfEV0pf1qnB.jpeg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,4 +26,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color:    black;
+}
+.work{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
