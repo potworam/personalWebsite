@@ -5,6 +5,7 @@
 }
 body, html {
   height: 100%;
+  background-color: lightgray;
 }
 header {
   padding: 0 px 0px;
@@ -71,9 +72,12 @@ header h1{
   transform: translate(-50%, -50%);
   color:    black;
 }
+h2{
+  font-size: 45px;
+}
 h3{
-  color: white;
-  font-size: xx-large;
+  color: lightgray;
+  font-size: 43px;
 }
 .work{
     display:flex;
