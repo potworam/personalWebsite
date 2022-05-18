@@ -7,6 +7,18 @@ body, html {
   height: 100%;
   background-color: lightgray;
 }
+p{
+  font-size: 20px;
+}
+address{
+  font-size: 20px; 
+
+}
+.about-me,img{
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+}
 header {
   padding: 0 px 0px;
   background-color: black;
@@ -47,11 +59,13 @@ header h1{
     text-decoration: none;
 }   
 .boxes {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
   border: 15px solid black;
   padding: 50px;
-  margin: 20px;
+  margin: 0px;
+  background-color: aqua;
+  font-size: x-large;
 }
 .hero{
   background-image: url("../assets/Portland_Skyline_glow_July_2017_-_Oregon.jpeg");
@@ -88,8 +102,8 @@ h3{
 .imageContainer {
   border: 10px solid black;
   overflow: hidden;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: 15px;
   text-align: center;  
  
@@ -106,4 +120,29 @@ h3{
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-between;
+}
+@media screen and (max-width: 980px) {
+  header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+  }
+  header h1 {
+      width: 100%;
+      text-align: center;
+  }
+  header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+  }
+  header nav ul li a {
+      font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+ 
+}
+@media screen and (max-width: 575px){
+
 }
